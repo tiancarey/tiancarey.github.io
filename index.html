@@ -576,7 +576,7 @@ Following his doctoral studies, Dr Carey was awarded a Royal Academy of Engineer
 								<p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
 							</article>
 
-						<!-- Contact -->
+						<!-- Contact 
 							<article id="contact">
 								<h2 class="major">Contact</h2>
 								<form method="post" action="#">
@@ -605,7 +605,116 @@ Following his doctoral studies, Dr Carey was awarded a Royal Academy of Engineer
 									<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
-							</article>
+							</article>-->
+
+						<!-- Contact -->
+<article id="contact">
+
+    <h2 class="major">Contact</h2>
+
+    <p>
+        For enquiries about research collaborations, PhD opportunities,
+        postdoctoral fellowships or visiting researcher positions, please
+        complete the form below.
+    </p>
+
+    <form method="post"
+          action="https://formspree.io/f/mbdnovwz">
+
+        <div class="fields">
+
+            <div class="field half">
+                <label for="name">Name</label>
+
+                <input type="text"
+                       name="name"
+                       id="name"
+                       autocomplete="name"
+                       required />
+            </div>
+
+            <div class="field half">
+                <label for="email">Email</label>
+
+                <input type="email"
+                       name="email"
+                       id="email"
+                       autocomplete="email"
+                       required />
+            </div>
+
+            <div class="field">
+                <label for="subject">Subject</label>
+
+                <select name="subject"
+                        id="subject"
+                        required>
+
+                    <option value="">Please select</option>
+                    <option value="PhD application">PhD application</option>
+                    <option value="Postdoctoral fellowship">
+                        Postdoctoral fellowship
+                    </option>
+                    <option value="Research collaboration">
+                        Research collaboration
+                    </option>
+                    <option value="Visiting researcher">
+                        Visiting researcher
+                    </option>
+                    <option value="Other enquiry">Other enquiry</option>
+
+                </select>
+            </div>
+
+            <div class="field">
+                <label for="message">Message</label>
+
+                <textarea name="message"
+                          id="message"
+                          rows="6"
+                          required></textarea>
+            </div>
+
+        </div>
+
+        <input type="hidden"
+               name="_subject"
+               value="New Carey Research Group website enquiry">
+
+        <!-- Basic spam trap: genuine visitors will not see this -->
+        <input type="text"
+               name="_gotcha"
+               style="display:none">
+
+        <ul class="actions">
+            <li>
+                <input type="submit"
+                       value="Send Message"
+                       class="primary" />
+            </li>
+
+            <li>
+                <input type="reset"
+                       value="Reset" />
+            </li>
+        </ul>
+
+    </form>
+
+    <p>
+        Alternatively, enquiries can be sent directly by email.
+    </p>
+
+    <ul class="actions">
+        <li>
+            <a href="mailto:careyti@tcd.ie"
+               class="button icon solid fa-envelope">
+                Email the Group
+            </a>
+        </li>
+    </ul>
+
+</article>
 
 						<!-- Elements -->
 							<article id="elements">
